@@ -1,0 +1,786 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    box-sizing: border-box ;
+    padding: 0;
+    margin: 0;
+    font-family:'Quicksand', sans-serif;
+    
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    background: transparent;
+    position: absolute;
+    top: 0;
+    color: #ffff;
+    padding: 45px 127px;
+    display: flex;
+     align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+nav{
+   gap: 40px;
+   display: flex;
+    margin-left: auto;
+}
+.search a,
+.login a{text-decoration: none;
+    font-weight: 700;
+    color: #ffff;
+    width: 100%;
+} 
+.titlehome h2{
+
+    font-weight: 700;
+    color: white;
+    font-size: 38px;
+
+    ;    
+
+}
+#home{
+    width: 100%;
+    overflow-x: hidden;
+    background:linear-gradient(180.07deg, #BE1E2D 56.15%, #F0323C 108.74%);
+    
+    
+}
+.home-content{
+    display: flex;
+}
+.logo img {
+height: 33px;
+}
+.login a i,
+.search a i{
+    margin-right: 10px;
+}
+.login a{
+    padding: 10px 20px;
+    background-color: #F0323C;
+    border-radius: 20px ;
+}
+.teks p{
+    color: white; 
+    line-height: 28px;
+    font-size: 16px;
+    font-family: 'sans-pro',sans-serif;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.login a:hover{
+    background-color: #a31927;
+}
+
+.titlehome{
+    width: 60%;
+    padding: 200px 0 200px 70px;
+    display: flex;
+    flex-direction: column;
+}
+.image-home{
+    width:40%;
+   
+}
+.image-home {
+   background-image:url(./hero-img-desktop.png)
+   ;
+    z-index: 10;
+    position: relative;
+    height: 52rem;
+   width:70%;
+   background-size: contain;
+   background-position: center;
+   background-repeat:no-repeat ;
+    
+}
+.form-account input{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: 
+    yellow;
+    width: 30%;
+    font-size: 20px;
+}
+.account{
+    padding: 15px 25px;
+    background: #a31927;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 50px;
+    color: white;
+    width: 470px;
+}
+.form-account input::placeholder{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(157,157,157);
+}
+.form-account {
+
+font-size: 20px;
+border: none;
+outline: none;
+font-weight: 500;
+color: #ffff;
+}
+.form-account button{
+    border-radius: 50px;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    margin-left: 70px;
+    font-weight: 600;
+    width: 100px;
+    height: 50px;
+    transition: 0.5s;
+    background-color: rgb(16,185,129);
+}
+.form-account button:hover{
+    background-color: rgb(15,164,114);
+}
+.cloud{
+    background-image: url(./cloud.png);
+    height: 2rem;
+    background-repeat:repeat-x;
+    background-size: contain;
+}
+#about{
+    width: 100%;
+    height: 100vh;
+}
+.box{
+    display: flex;
+    position: absolute;
+    width: 70%;
+    left: 50%;
+    background-color: #ffffff;
+    transform: translateX(-50%);
+    padding: 30px 0px;
+    font-language-override: unset;
+    overflow: hidden;
+    border-radius: 30px;
+    margin-top: -90px;
+    box-shadow: 2px 0px 10px;
+    
+}
+.gambar1{
+    justify-content: space-between;
+    display: flex;
+    width: 33%;
+}
+.gambar1 img{
+    width: 30%;
+    height: auto;
+    margin-left: 28px;
+}
+
+.gambar1 .text-col{
+    display: inline-block;
+    padding-right: 70px;
+    margin-top: 26px;
+    line-height: 30px;
+}
+
+.gambar1 h2{
+    color: #F0323C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+}
+
+.gambar1 p{
+    color: gray;
+    font-weight: 700;
+}
+
+
+    
+.apaitu{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: #F0323C;
+    font-weight: 700;
+    padding-top: 20%;
+}
+.apaitu p{
+    color: gray;
+    font-weight: 500;
+    font-size: 16px;
+    padding-top: 24px;
+}
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 42px;
+    border-radius: 24px;
+}
+.video iframe{
+    border-radius: 24px;
+}
+#btntop{
+    position: fixed;
+background-color: #BE1E2D;
+font-size: 20px;
+color: #ffffff;
+    cursor: pointer;
+    right: 20px;
+    bottom: 20px;
+    border: none;
+  width: 50px;
+  height: 50px;
+   border-radius: 50px;
+
+}
+
+#creator{
+    margin-top:150px;
+    width: 100%;
+}
+.title_creator{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.title_creator h2{
+    font-size: 32px;
+    color: #F0323C;
+    font-weight: 700;
+
+}
+.list_creator{
+    display: flex;
+    margin: 40px 0;
+    flex-direction: column;
+    align-items: center;
+}
+.list_creator ul{
+    display: flex;
+    list-style: none;
+    font-weight: 700;
+    gap: 40px;
+    font-size: 18px;
+}
+.list_creator ul .list{
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: 0.3s;
+    border-radius: 20px;}
+.list_creator ul .list:hover{
+    color: #BE1E2D;
+    background-color: rgba(254, 226, 226);
+   
+    
+}
+.list_creator ul .list.active{
+    color: #BE1E2D;
+    background-color: rgba(254, 226, 226);
+}
+.userbox{
+    margin-top: 72px;
+    width: 16rem;
+    height: 16rem;
+    z-index: 5;
+    border: 4px solid  #FEE2E2;
+    border-radius: 50%;
+    position: relative;
+    top: -315px;
+    right: 160px;
+        
+    
+}
+.lihat{
+    position: relative;
+    left: 66%;
+    top: -73%;
+    color: #BE1E2D;
+    font-weight: 600;
+    cursor: pointer;
+}
+.userbox img{
+    background-position: center;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.user-box{
+    display: flex;
+    flex-direction: column;
+    width: 800px ;
+    height: 210px;
+    margin-top: 88px;
+    padding-left: 94px;
+    border: 4px solid #FEE2E2;
+    border-radius: 10px;
+}
+.user_text {
+    padding-left: 124px;
+    line-height: 30px;
+}
+.user_text h2{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 28px;
+    font-size: 24px;
+}
+.user_text p{
+    padding-top: 10px;
+    font-family: 'sans-pro',sans-serif;
+}
+.user_text span{
+color: gray;
+font-weight: 500;
+}
+.kotak{
+    display: flex;
+    width: 300px;
+    height: 35px;
+    margin-top: 18px;
+    border-radius: 10px;
+    box-shadow: rgb(208, 208, 210) 0px 3px 8px;
+    font-weight: 500;
+
+}
+.makanankucing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+    font-size: 14px;
+    margin-left: 13px;
+    margin-top: -10px;
+}
+.makanankucing img{
+    width: 24px;
+    height: auto;
+    object-fit: cover;
+    margin-top: px;
+    padding-top: 5px;
+}
+.makanankucing p{
+    font-weight: 500;
+    font-family: 'quck sand',sans-serif;
+}
+#carakerja{
+    background: url(bg-pattern-5.png), linear-gradient(45deg, #BE1E2D 14.64%, #DB2935 85.36%);
+    background-repeat: repeat;
+    color: white;
+}
+.gimanacaranya {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 8rem;
+    gap: 3rem;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+}
+.card-photo {
+    display: flex;
+    justify-content: center;
+}
+.card-photo img {
+    width: 17rem;
+}
+.card-text {
+    background-color: rgba(0, 0, 0, 0.085);
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 14px;
+    
+}
+.gimanacaranya h2{
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+.gimanacaranya p{
+    font-weight: 500;
+}
+.judul-kenapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    margin-top: 2rem;
+    gap:1rem;   
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75rem;
+    color: #BE1E2D;
+}
+
+.judul-kenapa img{
+    width: 11.5rem;
+    height: auto;
+    margin-top: 2rem;
+
+
+    
+}
+#kenapa{
+    padding-left: 11%;
+    padding-right: 11%;
+  
+min-height: 100vh;
+}
+
+.card-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border: 0.5px solid rgba(128, 128, 128, 0.349) ;
+    border-radius: 10px;
+    width: 31%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+}
+.card-kenapa{
+    display: flex;
+   z-index: 10;
+   gap: 1.7rem;
+    margin-top: -3rem;
+   justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-item img{
+    width: 33%;
+    height: 33%;
+    object-fit:contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-item h2{
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+}
+.card-item p{
+    color: gray;
+    font-size: 16px;
+    font-family: 'sans-pro',sans-serif;
+    font-weight: 500;
+    
+}
+.card-item1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: white;
+    border: 0.5px solid rgba(128, 128, 128, 0.349) ;
+    border-radius: 10px;
+    width: 31%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+}
+.card-item1 img{
+    width: 33%;
+    height: 33%;
+    object-fit:contain;
+    display: flex;
+    margin-top: -1.8rem;
+    align-items: center;
+    justify-content: center;
+}
+.card-item1 h2{
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
+}
+.card-item1 p{
+    color: gray;
+    font-size: 16px;
+    font-family: 'sans-pro',sans-serif;
+    font-weight: 500;
+    
+}
+#debit{
+    min-height: 100vh;
+}
+.awan {
+    position: relative;
+}
+.awan-2{
+    position: absolute;
+    top: 6rem;
+    left: 5%;
+
+}
+
+.awan-3{
+    position: absolute;
+    top: 10.5rem;
+    left: 30%;
+
+}
+.awan-4{
+    position: absolute;
+    top: 6rem;
+    left: 60%;
+
+}
+.awan-5{
+    position: absolute;
+    top: 10.5rem;
+    left: 85%;
+
+}
+.kotak-debit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 4.4rem;
+    padding-top: 15%;
+    padding-left: 27%;
+    padding-right: 27%;
+}
+.kotak-debit h1{
+    color: #DB2935;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;   
+    font-size: 28px; 
+}
+.kotak-debit p{
+    font-family: 'sans-pro',sans-serif;
+    font-weight: 500; 
+    line-height: 1.6rem;
+    font-size: 16px;
+}
+.card-debit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.card-debit img{
+    width:6rem;
+    object-fit: contain;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#faq{
+    display: flex;
+    padding: 100px;
+        width: 100%;
+}
+
+.col-faq{
+    width: 75%;
+    margin-left: 19rem;
+   
+}
+.col-faq h2{
+    color: #DB2935;
+    font-weight: 800;
+    font-size: 29px;
+}
+/* accordion */
+.content-box{
+    position: relative;
+    margin: 20px 0px;
+    /* box shadow nomer 8 */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;  
+    border-radius: 5px;
+}
+.content-box .label{
+    position: relative;
+    cursor: pointer;
+    padding: 20px;  
+}
+.content-box .label::before{
+    content: '+';
+    color: #DB2935;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.content-box.active .label::before{
+    content:'-';
+    color: #DB2935;
+}
+.content-box .content-text{
+    position: relative;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    transition: .5s;
+    height: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.content-box.active .content-text{
+    height: auto;
+    padding: 10px 20px;
+
+}
+a{
+    color: #BE1E2D;
+}
+.link a{ 
+    font-weight: 600;
+    text-align: end;
+    display: flex;
+    padding-top: 1rem; 
+    justify-content: end;
+}
+.kotak-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 7rem;
+    color: #ffffff;
+   
+    justify-content: center;
+    align-items: center;
+   
+}
+#foter{
+   min-height: 69vh;
+    width: 100%;
+    background-color: rgb(190, 30, 45);
+}
+    
+
+.card-beres{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-top: -9rem;
+ 
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    
+
+}
+.foot a{
+    
+    text-decoration: none;
+     color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'sans-pro',sans-serif;
+}
+.foot h2{
+    padding-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+ 
+}
+.foot1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    
+
+}
+.foot1 a{
+    
+    text-decoration: none;
+     color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'sans-pro',sans-serif;
+}
+.foot1 h2{
+    padding-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+ 
+}
+.foot2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    margin-top: -1.7rem;
+    
+
+}
+.foot2 a{
+    
+    text-decoration: none;
+     color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'sans-pro',sans-serif;
+}
+.foot2 h2{
+    padding-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+ 
+}
+.sosmed{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.gambar-sosmed{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.1rem;
+
+}
+.card-done{
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.card-done p{
+    font-family: 'sans-pro',sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+.card-done h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding-top: 10rem;
+}
+.col-cat{
+    position: absolute;
+
+    left: 14rem;
+    }
+    .footer{
+        position: relative;
+    }
