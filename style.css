@@ -757,6 +757,7 @@ a{
 .gambar-sosmed{
     display: flex;
     flex-wrap: wrap;
+    cursor: pointer;
     gap: 1.1rem;
 
 }
