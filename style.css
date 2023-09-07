@@ -752,6 +752,7 @@ a{
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    margin-top: 1rem;
 }
 .gambar-sosmed{
     display: flex;
@@ -779,7 +780,7 @@ a{
 .col-cat{
     position: absolute;
 
-    left: 14rem;
+    left: 12rem;
     }
     .footer{
         position: relative;
